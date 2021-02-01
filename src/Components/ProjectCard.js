@@ -16,3 +16,35 @@ const useStyles = makeStyles({
     height: 140,
   },
 });
+
+export default function MediaCard(props) {
+    const classes = useStyles();
+  
+    return (
+      <Card className={classes.root}>
+        <CardActionArea>
+          <CardMedia
+            className={classes.media}
+            image={props.image}
+            title={props.title}
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="h2">
+            {props.title}
+            </Typography>
+            <Typography variant="body2" color="textSecondary" component="p">
+             {props.description}
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <Button size="small" color="primary" href={props.repository}>
+            Github
+          </Button>
+          <Button size="small" color="primary" href={props.livelink}>
+            Deployed
+          </Button>
+        </CardActions>
+      </Card>
+    );
+  }

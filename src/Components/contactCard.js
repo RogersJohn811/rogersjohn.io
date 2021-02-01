@@ -54,7 +54,7 @@ export default function ContactCard() {
         <CardHeader
           avatar={
             <Avatar aria-label="recipe" className={classes.avatar}>
-              JD
+              JR
             </Avatar>
           }
           title="Contact"

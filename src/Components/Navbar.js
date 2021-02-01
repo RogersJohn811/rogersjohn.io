@@ -27,7 +27,7 @@ export default function ButtonAppBar() {
         <AppBar position="static">
           <Toolbar>
             <Typography variant="h6" className={classes.title}>
-              Joe Dippolito
+              Joe Rogers
             </Typography>
             <Button color="inherit" href="/about">About</Button>
             <Button color="inherit" href="/contact">Contact</Button>
