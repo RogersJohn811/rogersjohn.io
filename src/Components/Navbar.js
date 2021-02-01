@@ -18,3 +18,22 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
 }));
+
+export default function ButtonAppBar() {
+    const classes = useStyles();
+  
+    return (
+      <div className={classes.root}>
+        <AppBar position="static">
+          <Toolbar>
+            <Typography variant="h6" className={classes.title}>
+              Joe Dippolito
+            </Typography>
+            <Button color="inherit" href="/about">About</Button>
+            <Button color="inherit" href="/contact">Contact</Button>
+            <Button color="inherit" href="/portfolio">Portfolio</Button>
+          </Toolbar>
+        </AppBar>
+      </div>
+    );
+  }
