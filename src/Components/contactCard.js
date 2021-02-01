@@ -40,3 +40,36 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: red[500],
   },
 }));
+
+export default function ContactCard() {
+    const classes = useStyles();
+    const [expanded, setExpanded] = React.useState(false);
+  
+    const handleExpandClick = () => {
+      setExpanded(!expanded);
+    };
+  
+    return (
+      <Card className={classes.root}>
+        <CardHeader
+          avatar={
+            <Avatar aria-label="recipe" className={classes.avatar}>
+              JD
+            </Avatar>
+          }
+          title="Contact"
+        />
+        <CardContent>
+          
+        </CardContent>
+        <CardActions disableSpacing>
+        <Button variant="contained" color="primary" href="https://github.com/joedip16">GitHub
+            </Button>
+            <Button variant="contained" color="Warning" href="https://www.linkedin.com/in/joe-dippolito-924558162/">Linkedin
+            </Button>
+          <Button aria-label="share">
+          </Button>
+        </CardActions>
+      </Card>
+    );
+  }
