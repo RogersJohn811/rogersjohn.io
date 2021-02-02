@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/RogersJohn811/rogersjohn.io/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/RogersJohn811/rogersjohn.io/static/js/main.1f6f7bae.chunk.js",
+    "main.js.map": "/RogersJohn811/rogersjohn.io/static/js/main.1f6f7bae.chunk.js.map",
+    "runtime-main.js": "/RogersJohn811/rogersjohn.io/static/js/runtime-main.59a62b30.js",
+    "runtime-main.js.map": "/RogersJohn811/rogersjohn.io/static/js/runtime-main.59a62b30.js.map",
+    "static/js/2.61830eba.chunk.js": "/RogersJohn811/rogersjohn.io/static/js/2.61830eba.chunk.js",
+    "static/js/2.61830eba.chunk.js.map": "/RogersJohn811/rogersjohn.io/static/js/2.61830eba.chunk.js.map",
+    "static/js/3.98740d6f.chunk.js": "/RogersJohn811/rogersjohn.io/static/js/3.98740d6f.chunk.js",
+    "static/js/3.98740d6f.chunk.js.map": "/RogersJohn811/rogersjohn.io/static/js/3.98740d6f.chunk.js.map",
+    "index.html": "/RogersJohn811/rogersjohn.io/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/RogersJohn811/rogersjohn.io/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.61830eba.chunk.js.LICENSE.txt": "/RogersJohn811/rogersjohn.io/static/js/2.61830eba.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/RogersJohn811/rogersjohn.io/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.59a62b30.js",
+    "static/js/2.61830eba.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.1f6f7bae.chunk.js"
+  ]
+}
